@@ -1,0 +1,38 @@
+.table-iris {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    border-spacing: 0;
+    empty-cells: show;
+}
+
+.table-iris thead {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #000;
+    text-align: left;
+    vertical-align: bottom;
+}
+
+.table-iris th,
+.table-iris td {
+    border-left: 1px solid #ccc;
+    border-width: 0 0 0 1px;
+    font-size: 100%;
+    margin: 0;
+    padding: 0.5em 1em;
+    text-align: center;
+}
+
+
+.table-iris-horizontal th,
+.table-iris-horizontal td {
+    border-bottom: 1px solid #ccc;
+}
+
+.table-iris-bottom th,
+.table-iris-bottom td {
+    border-width: 0 0 1px 0;
+    border-bottom: 1px solid #ccc;
+}
+.table-iris-striped tr:nth-child(2n) td {
+    background-color: rgba(0, 0, 0, 0.05);
+}
